@@ -13,6 +13,7 @@ export class AuthenticationGuard implements CanActivate, CanLoad {
   }
 
   canLoad(route: Route, segments: UrlSegment[]): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
+    // todo implement authentication for canLoad
     return true;
   }
 
