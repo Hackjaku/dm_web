@@ -1,3 +1,3 @@
 export interface Spell {
-  id: number;
+  Id: number;
 }
