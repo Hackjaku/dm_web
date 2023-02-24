@@ -7,3 +7,7 @@ export class StorageService {
 
   constructor() { }
 }
+
+// getter user
+
+// setter user
